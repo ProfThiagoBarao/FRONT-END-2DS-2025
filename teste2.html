@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transição de Escala no Texto</title>
+    <style>
+        /* Estilo inicial do texto */
+        .texto {
+            font-size: 20px;
+            display: inline-block; /* Garante que a transformação funcione corretamente */
+            transition: transform 0.5s ease; /* Define a transição */
+        }
+
+        /* Efeito de escala ao passar o mouse */
+        .texto:hover {
+            transform: scale(1.5); /* Aumenta o texto em 1.5 vezes */
+        }
+    </style>
+</head>
+<body>
+
+    <p class="texto">Passe o mouse sobre este texto para vê-lo aumentar.</p>
+
+</body>
